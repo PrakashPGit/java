@@ -5,8 +5,8 @@ public class Mani extends Transaction {
 		Widrawall w = new Transaction();
 		w.wid();
 		int a = 15;
-		if (a > 2 )	{
-			throw new exc("rada");
+		if (a > 0 )	{
+			throw new exc("A is lase than zero");
 		}
 		
 		
